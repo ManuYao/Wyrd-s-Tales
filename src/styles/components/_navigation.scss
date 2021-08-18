@@ -1,0 +1,23 @@
+.navigation{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    
+    align-items: center;
+    align-content: flex-end;
+
+
+a{
+    margin: 100px;
+    position: relative;
+    top: -65px;
+    left: 21%;
+}
+
+.nav-active:hover{
+    color: blue; //test 😃
+}
+.nav-active{
+  color: aqua; //jaune par deffaut tkt 😄
+}
+
+}
