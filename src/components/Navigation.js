@@ -8,19 +8,19 @@ import { NavLink} from 'react-router-dom'
  * @deprecated : Bar de navigation
  */
 
-const Navigation =() => {
+const Naavigation =() => {
     return (
         <div className="navigation">
             
-            <NavLink exact to="/">
+            <NavLink exact to="/" activeClassName="nav-active">
                 Accuiel-WD
             </NavLink>
 
-            <NavLink exact to="Abouts">
+            <NavLink exact to="Abouts" activeClassName="nav-active">
                 A-propos
             </NavLink>
 
-            <NavLink exact to="Maps">
+            <NavLink exact to="Maps" activeClassName="nav-active">
                 Lieu
             </NavLink>
 
@@ -32,4 +32,4 @@ const Navigation =() => {
     );
 }
  
-export default Navigation;
+export default Naavigation;
