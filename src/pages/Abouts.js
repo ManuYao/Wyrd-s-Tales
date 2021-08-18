@@ -15,22 +15,11 @@ function Abouts() {
             <h1>A propos de WD</h1>
 
             <p></p>
+
         <div className="lien_social">
-            
-            <Foooter
-            link="/" 
-            imgUrl=""
-            alt='img_Discord'
-            />
-             <Foooter 
-            imgUrl=""
-            alt='img_Twitter'
-            />
-             <Foooter 
-            imgUrl=""
-            alt='img_Youtube'
-            />
+            <Foooter imgUrl='d' alt='c'/>
         </div>
+        
         </div>
     </div>
     );
