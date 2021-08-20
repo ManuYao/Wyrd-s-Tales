@@ -17,7 +17,10 @@ function Abouts() {
             <p></p>
 
         <div className="lien_social">
-            <Foooter imgUrl='d' alt='c'/>
+            <Foooter imgUrl='irl'
+                     alt='testAlt'
+                    >https://github.com/ManuYao/ReactRemember/blob/main/src/components/Event_State1/Use_Event.js
+            </Foooter>
         </div>
         
         </div>

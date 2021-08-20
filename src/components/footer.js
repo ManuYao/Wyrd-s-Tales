@@ -1,14 +1,19 @@
 import React from 'react';
-import { NavLink, Route} from 'react-router-dom'
+import { useHistory } from 'react-router-dom';
+
 
 function footer(props) {
     console.log(props)
 
+    const history = useHistory();
+    const redirection = () => {
+        let url = props.children,
+        this.props.history.push(url)
+    }
+
     return (
-        <div>
-            <NavLink className="footer" exact to="https://discord.gg/xtaPaGXfXS">
+        <div className="footer" onClick={redirection}>
                 <img src={props.imgUrl} alt={props.alt}/>
-            </NavLink>
         </div>
     );
 }
